@@ -43,13 +43,33 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 
 Developed by:V.KAMALESH VIJAYAKUMAR RegisterNumber:(24011704)
 */
+```
+module syn (
+    output reg [3:0] out,
+    input clk,
+    input rst
+);
+    always @(posedge clk) begin
+        if (rst)
+            out <= 0;
+        else
+            out <= out + 1;
+    end
+endmodule
+```
 
 
 **RTL LOGIC UP COUNTER**
+![image](https://github.com/user-attachments/assets/d84a6902-c4a6-4d0b-a901-31b7668b767a)
+
 
 **TIMING DIAGRAM FOR IP COUNTER**
+![image](https://github.com/user-attachments/assets/5e60bb85-48e7-4dd7-a49b-022b10aa214e)
+
 
 **TRUTH TABLE**
+![image](https://github.com/user-attachments/assets/fa8ba2d4-b6ed-4185-9e0d-2292e1cf5cfb)
+
 
 **RESULTS**
 The implementation of 4 bit synchronous up counter has been executed successfully and the functionality has been validated.
