@@ -29,13 +29,21 @@ However, the remaining flip-flops should be made ready to toggle only when all l
 **Procedure**
 
 /* write all the steps invloved */
+```
+1.Type the program required for the given experiment in quartus.
+2.Make sure the program has been compiled successfully.
+3.Run the RTL logic simulation.
+4.Make the truth table.
+5.Generate the output waveform.
+```
 
 **PROGRAM**
 
 /* Program for flipflops and verify its truth table in quartus using Verilog programming. 
 
-Developed by: RegisterNumber:
+Developed by:V.KAMALESH VIJAYAKUMAR RegisterNumber:(24011704)
 */
+
 
 **RTL LOGIC UP COUNTER**
 
@@ -44,3 +52,5 @@ Developed by: RegisterNumber:
 **TRUTH TABLE**
 
 **RESULTS**
+The implementation of 4 bit synchronous up counter has been executed successfully and the functionality has been validated.
+
